@@ -1,0 +1,1503 @@
+<VERSION>StrokeIt .9.4</VERSION>
+
+<APP name="[½ûÓÃÊÖÊÆµÄ³ÌĞò]">
+class=BaseBar
+exec=BF1942.exe
+exec=ce.exe
+class=Diablo II
+exec=F1_2002.exe
+exec=gta3.exe
+exec=hl.exe
+exec=jk2mp.exe
+exec=jk2sp.exe
+exec=mohaa.exe
+exec=nwmain.exe
+exec=quake3.exe
+exec=SeriousSam.exe
+exec=simcity 4.exe
+exec=starcraft.exe
+exec=unreal2.exe
+exec=UnrealTournament.exe
+exec=ut2003.exe
+exec=war3.exe
+exec=swgclient.exe
+exec=Ra2.exe
+exec=Game.exe
+class=UnityWndClass
+exec=opera.exe
+caption=DOTA 2
+pattern=true
+caption=dota
+pattern=true
+class=SDL_app
+class=VMUIFrame
+exclude=true
+</APP>
+
+<APP name="Default">
+Close MDI Window [C Reversed] {
+   gesture = C Reversed
+   Ctrl+F4 = keys, hotkey [CTRL_DOWN][F4][CTRL_UP]
+}
+Close Window [C] {
+   gesture = C
+   Alt+F4 = keys, hotkey [ALT_DOWN][F4][ALT_UP]
+}
+Close Window [L] {
+   gesture = Down-Right
+   Alt+F4 = keys, hotkey [ALT_DOWN][F4][ALT_UP]
+}
+Copy [Up] {
+   gesture = Up
+   Ctrl+C = keys, hotkey [CTRL_DOWN]C[CTRL_UP]
+}
+Find [F] {
+   gesture = F
+   Ctrl+F = keys, hotkey [CTRL_DOWN]F[CTRL_UP]
+}
+Ignore Gesture [X] {
+   gesture = X
+   New Command = sicontrol, ignore
+}
+Max/Restore [/ Up] {
+   gesture = / Up
+   New Command = win, max_rest
+}
+Minimize [/ Down] {
+   gesture = / Down
+   Minimize = win, min
+}
+Minimize All [/Down - / Up] {
+   gesture = / Down - / Up
+   Win+M = keys, hotkey [WIN_DOWN]M[WIN_UP]
+}
+New [N] {
+   gesture = N
+   Ctrl+N = keys, hotkey [CTRL_DOWN]N[CTRL_UP]
+}
+Open [O] {
+   gesture = O
+   Ctrl+O = keys, hotkey [CTRL_DOWN]O[CTRL_UP]
+}
+Paste [Down] {
+   gesture = Down
+   Ctrl+V = keys, hotkey [CTRL_DOWN]V[CTRL_UP]
+}
+Print [P] {
+   gesture = P
+   Ctrl+P = keys, hotkey [CTRL_DOWN]P[CTRL_UP]
+}
+Quit [Q] {
+   gesture = Q
+   Alt+F4 = keys, hotkey [ALT_DOWN][F4][ALT_UP]
+}
+Redo [U Reversed] {
+   gesture = U Reversed
+   Ctrl+Y = keys, hotkey [CTRL_DOWN]Y[CTRL_UP]
+}
+Refresh [Up-Down] {
+   gesture = Up-Down
+   F5 = keys, hotkey [F5]
+}
+Restore All [/ Up - / Down] {
+   gesture = / Up - / Down
+   Shift+Win+M = keys, hotkey [WIN_DOWN][SHIFT_DOWN]M[SHIFT_UP][WIN_UP]
+}
+Run E-Mail [M] {
+   gesture = M
+   E-Mail Client = exec, mail
+}
+Run Explorer [E] {
+   gesture = E
+   gesture = MBUTTON_DOWN
+   Explorer = exec, run "explorer.exe" "" "/e,::{20D04FE0-3AEA-1069-A2D8-08002B30309D}"
+}
+Run Web Browser [W] {
+   gesture = W
+   Web Browser = exec, browser
+}
+Save [S] {
+   gesture = S
+   Ctrl+S = keys, hotkey [CTRL_DOWN]S[CTRL_UP]
+}
+Strokeit:ÃüÁî±à¼­Æ÷[ÓÒ¼ü+×ó¼ü] {
+   gesture = LBUTTON_DOWN
+   °´×¡ÓÒ¼üµã×ó¼ü = sicontrol, show
+}
+Task Next [Up-Right] {
+   gesture = Up-Right
+   gesture = WHEEL_DOWN
+   Next Window = win, next
+}
+Task Prev [Up-Left] {
+   gesture = Up-Left
+   gesture = WHEEL_UP
+   Previous Window = win, prev
+}
+Undo [U] {
+   gesture = U
+   Ctrl+Z = keys, hotkey [CTRL_DOWN]Z[CTRL_UP]
+}
+±à¼­:¸´ÖÆ [C] {
+   ÆÁÏÔ = osd, OSD "¸´ÖÆ" "300" "60" "¿¬Ìå_GB2312" "0" "255" "0" "1" "0"
+   Ctrl+C = keys, hotkey "[CTRL_DOWN]C[CTRL_UP]"
+}
+±à¼­:Õ³Ìù [P] {
+   ÆÁÏÔ = osd, OSD "Õ³Ìù" "300" "60" "¿¬Ìå_GB2312" "0" "255" "0" "1" "0"
+   Ctrl+V = keys, hotkey "[CTRL_DOWN]V[CTRL_UP]"
+}
+´°¿Ú:¹Ø±Õ[X] {
+   ÆÁÏÔ = osd, OSD "¹Ø±Õ" "300" "60" "¿¬Ìå_GB2312" "0" "255" "0" "1" "0"
+   ALT + F4 = keys, hotkey "[ALT_DOWN][F4][ALT_UP]"
+}
+´°¿Ú:¹ö¶¯µ½µ×²¿[¡ı¡ü»òV] {
+   gesture = Down-Up
+   gesture = V
+   ÆÁÏÔ = osd, OSD "µ½µ×²¿" "300" "60" "¿¬Ìå_GB2312" "0" "255" "0" "1" "0"
+   END = keys, hotkey "[END]"
+}
+´°¿Ú:¹ö¶¯µ½¶¥²¿[¡ü¡ı»òA] {
+   gesture = A
+   HOME = keys, hotkey "[HOME]"
+   ÆÁÏÔ = osd, OSD "µ½¶¥²¿" "300" "60" "¿¬Ìå_GB2312" "0" "255" "0" "1" "0"
+}
+´°¿Ú:ÏÔÊ¾×ÀÃæ[Z] {
+   gesture = Z
+   ÆÁÏÔ = osd, OSD "ÏÔÊ¾×ÀÃæ" "200" "60" "¿¬Ìå_GB2312" "0" "0" "255" "1" "1"
+   WIN+D = keys, keys "[win_down]d[win_up]"
+}
+´°¿Ú:ÏòÉÏ¹ö¶¯[¡ü] {
+   PRIOR = keys, hotkey "[PRIOR]"
+}
+´°¿Ú:ÏòÏÂ¹ö¶¯[¡ı] {
+   NEXT = keys, hotkey "[NEXT]"
+}
+´°¿Ú:×î´ó»¯/»¹Ô­ [ÓÒÉÏ¨J] {
+   ÆÁÏÔ = osd, OSD "¨J×î´ó»¯/»¹Ô­" "200" "60" "¿¬Ìå_GB2312" "0" "0" "255" "1" "1"
+   ×î´ó»¯/»¹Ô­ = win, max_rest
+}
+´°¿Ú:×îĞ¡»¯ [×óÏÂ¨L] {
+   ÆÁÏÔ = osd, OSD "¨L×îĞ¡»¯" "200" "60" "¿¬Ìå_GB2312" "0" "0" "255" "1" "1"
+   ×îĞ¡»¯ = win, min
+}
+´ò¿ª:EverthingËÑË÷[S] {
+   ´ò¿ª = exec, run "D:\\Software\\Everything\\Everything.exe" "" "" ""
+}
+´ò¿ª:¼ÇÊÂ±¾[M] {
+   notepad.exe = exec, run "%SystemRoot%\\system32\\notepad.exe" "" "" ""
+}
+´ò¿ª:Ä¬ÈÏä¯ÀÀÆ÷ [W] {
+   ÍøÒ³ä¯ÀÀÆ÷ = exec, browser
+}
+´ò¿ª:ÈÎÎñ¹ÜÀíÆ÷[¡ú¡û] {
+   gesture = Right-Left
+   taskmgr.exe = exec, run "C:\\WINDOWS\\system32\\taskmgr.exe" "" "" ""
+}
+´ò¿ª:×ÊÔ´¹ÜÀíÆ÷ {
+   gesture = 3
+   ÆÁÏÔ = osd, OSD "×ÊÔ´¹ÜÀíÆ÷" "200" "60" "¿¬Ìå_GB2312" "0" "0" "255" "1" "1"
+   ×ÊÔ´¹ÜÀíÆ÷ = keys, keys "[WIN_DOWN]E[WIN_UP]"
+}
+´ò¿ªQQ {
+   ÔËĞĞ = exec, run "C:\\Program Files\\Tencent\\QQ\\Bin\\QQ.exe" "" "" ""
+}
+ºóÍË[¡û] {
+   gesture = Left
+   ÆÁÏÔ = osd, OSD "ºóÍË" "300" "60" "¿¬Ìå_GB2312" "0" "255" "0" "1" "0"
+   ALT+¡û = keys, hotkey "[ALT_DOWN][LEFT][ALT_UP]"
+}
+¼üÅÌ:Delete¼ü[D] {
+   gesture = D
+   DELETE = keys, hotkey [DELETE]
+}
+½ØÍ¼¹¤¾ß[F] {
+   FastStone Capture = exec, run "D:\\Software\\FastStone Capture\\FSCapture.exe" "" "" ""
+}
+Ç°½ø[¡ú] {
+   gesture = Right
+   ÆÁÏÔ = osd, OSD "Ç°½ø" "300" "60" "¿¬Ìå_GB2312" "0" "255" "0" "1" "0"
+   ALT+¡ú = keys, hotkey "[ALT_DOWN][RIGHT][ALT_UP]"
+}
+Ë¢ĞÂ [¡ú¡ı] {
+   gesture = Right-Down
+   ÆÁÏÔ = osd, OSD "Ë¢ĞÂ" "200" "60" "¿¬Ìå_GB2312" "0" "0" "255" "1" "1"
+   F5 = keys, hotkey "[F5]"
+}
+ÎÄ¼ş:±£´æ [B] {
+   gesture = B
+   ÆÁÏÔ = osd, OSD "±£´æ" "200" "60" "¿¬Ìå_GB2312" "0" "0" "255" "1" "1"
+   Ctrl+S = keys, hotkey [CTRL_DOWN]S[CTRL_UP]
+}
+ÎÄ¼ş:´ò¿ª [O] {
+   ÆÁÏÔ = osd, OSD "´ò¿ª" "200" "60" "¿¬Ìå_GB2312" "0" "0" "255" "1" "1"
+   Ctrl+O = keys, hotkey "[CTRL_DOWN]O[CTRL_UP]"
+}
+ÎÄ¼ş:ĞÂ½¨ [N] {
+   ÆÁÏÔ = osd, OSD "ĞÂ½¨" "200" "60" "¿¬Ìå_GB2312" "0" "0" "255" "1" "1"
+   Ctrl+N = keys, hotkey "[CTRL_DOWN]N[CTRL_UP]"
+}
+ÒôÁ¿:¼õĞ¡[ÓÒ¼ü+ÏÂ¹ö] {
+   °´×¡ÓÒ¼üÏòÏÂ¹ö¶¯¹öÂÖ = msg, send "793" "0" "589824" "" "" ""
+   ÆÁÏÔ = osd, OSD "¨‹ÒôÁ¿¨‹" "200" "60" "¿¬Ìå_GB2312" "0" "0" "255" "1" "1"
+}
+ÒôÁ¿:¾²Òô[ÓÒ¼ü+ÖĞ¼ü] {
+   °´×¡ÓÒ¼üµãÖĞ¼ü = msg, send "0x319" "0" "0x80000" "" "" ""
+   ÆÁÏÔ = osd, OSD "¾²Òô/»Ö¸´ÒôÁ¿£¡" "500" "60" "¿¬Ìå_GB2312" "255" "0" "0" "1" "1"
+}
+ÒôÁ¿:Ôö¼Ó[ÓÒ¼ü+ÉÏ¹ö] {
+   °´×¡ÓÒ¼üÏòÉÏ¹ö¶¯¹öÂÖ = msg, send "793" "0" "655360" "" "" ""
+   ÆÁÏÔ = osd, OSD "¡øÒôÁ¿¡ø" "200" "60" "¿¬Ìå_GB2312" "0" "0" "255" "1" "1"
+}
+ÔËĞĞ[R] {
+   gesture = R
+   WIN+R = keys, keys "[WIN_DOWN]R[WIN_UP]"
+}
+</APP>
+
+<APP name="Android Studio">
+class=SunAwtFrame
+</APP>
+
+<APP name="Chat Programs">
+class=mIRC32
+pattern=true
+class=mIRC
+class=AIM_IMessage
+class=IMClass
+class=IMWindowClass
+Big Smiley [D] {
+   gesture = D
+   :-D = keys, keys :-D[ENTER]
+}
+Hah [H] {
+   gesture = H
+   hah = keys, keys hah[enter]
+}
+Kiss Face [K] {
+   gesture = K
+   :-* = keys, keys :-*[ENTER]
+}
+LOL [L] {
+   gesture = L
+   :-D LOL :-D = keys, keys :-D LOL :-D[ENTER]
+}
+Sad Face [A] {
+   gesture = A
+   :-( = keys, keys :-([ENTER]
+}
+Smiley Face [U] {
+   gesture = U
+   :-) = keys, keys :-)[ENTER]
+}
+Surprised [O] {
+   gesture = O
+   \=-O = keys, keys =-o[enter]
+}
+Unsure Face [\ Down] {
+   gesture = \ Down
+   :-/ = keys, keys :-/[ENTER]
+}
+</APP>
+
+<APP name="Disabled Apps">
+class=BaseBar
+exec=BF1942.exe
+exec=ce.exe
+class=Diablo II
+exec=F1_2002.exe
+exec=gta3.exe
+exec=hl.exe
+exec=jk2mp.exe
+exec=jk2sp.exe
+exec=mohaa.exe
+exec=nwmain.exe
+exec=quake3.exe
+exec=SeriousSam.exe
+exec=simcity 4.exe
+exec=starcraft.exe
+exec=unreal2.exe
+exec=UnrealTournament.exe
+exec=ut2003.exe
+exec=war3.exe
+exec=swgclient.exe
+exclude=true
+</APP>
+
+<APP name="Eclipse">
+class=SWT_Window0
+maxWin {
+   gesture = / Up
+   ctrl+m = keys, hotkey "[CTRL_DOWN]m[CTRL_UP]"
+}
+</APP>
+
+<APP name="Explorer">
+class=CabinetWClass
+class=IEFrame
+Back [Left] {
+   gesture = Left
+   Alt+Left = keys, hotkey [ALT_DOWN][LEFT][ALT_UP]
+}
+Forward [Right] {
+   gesture = Right
+   Alt+Right = keys, hotkey [ALT_DOWN][RIGHT][ALT_UP]
+}
+ĞÂµÄ¶¯×÷ {
+   gesture = \ Down
+   ĞÂµÄÃüÁî = keys, hotkey "[CTRL_DOWN]w[CTRL_UP]"
+}
+</APP>
+
+<APP name="Google Chrome">
+class=Chrome_WidgetWin_0
+class=Chrome_VistaFrame
+class=Chrome_WidgetWin_1
+Close Tab [\ down] {
+   gesture = \ Down
+   Ctrl+W = keys, hotkey "[CTRL_DOWN]W[CTRL_UP]"
+}
+recovery[/ up] {
+   gesture = / Up
+   Ctrl+Shift+T = keys, hotkey "[CTRL_DOWN][SHIFT_DOWN]t[SHIFT_UP][CTRL_UP]"
+}
+Switch Tab 2 Left [Left] {
+   gesture = Left
+   Ctrl+Shift+Tab = keys, hotkey "[CTRL_DOWN][SHIFT_DOWN][TAB][SHIFT_UP][CTRL_UP]"
+}
+Switch Tab 2 Right[Right] {
+   gesture = Right
+   Ctrl+Tab = keys, hotkey "[CTRL_DOWN][TAB][CTRL_UP]"
+}
+</APP>
+
+<APP name="Internet Explorer">
+class=IEFrame
+Back [Left] {
+   gesture = Left
+   Alt+Left = keys, hotkey [ALT_DOWN][LEFT][ALT_UP]
+}
+Close Tab [\ Up] {
+   gesture = \ Up
+   Ctrl+W = keys, hotkey [CTRL_DOWN]W[CTRL_UP]
+}
+Forward [Right] {
+   gesture = Right
+   Alt+Right = keys, hotkey [ALT_DOWN][RIGHT][ALT_UP]
+}
+New Tab [\ Down] {
+   gesture = \ Down
+   Ctrl+T = keys, hotkey [CTRL_DOWN]T[CTRL_UP]
+}
+</APP>
+
+<APP name="Media Player">
+class=Media Player 2
+class=WMPlayerApp
+Full Screen [F] {
+   gesture = F
+   Alt+Enter = keys, hotkey [ALT_DOWN][ENTER][ALT_UP]
+}
+Play/Pause [P] {
+   gesture = P
+   [Spacebar] = keys, hotkey [SPACE]
+}
+Stop [S] {
+   gesture = S
+   [Period] = keys, hotkey .
+}
+Zoom 100% [Right] {
+   gesture = Right
+   Alt+2 = keys, hotkey [ALT_DOWN]2[ALT_UP]
+}
+Zoom 200% [Down] {
+   gesture = Down
+   Alt+3 = keys, hotkey [ALT_DOWN]3[ALT_UP]
+}
+Zoom 50% [Up] {
+   gesture = Up
+   Alt+1 = keys, hotkey [ALT_DOWN]1[ALT_UP]
+}
+</APP>
+
+<APP name="mIRC">
+class=mIRC32
+class=mIRC
+Address [B] {
+   gesture = B
+   Alt+B = keys, hotkey [ALT_DOWN]B[ALT_UP]
+}
+Aliases [A] {
+   gesture = A
+   Alt+A = keys, hotkey [ALT_DOWN]A[ALT_UP]
+}
+DCC Chat [D] {
+   gesture = D
+   Alt+C = keys, hotkey [ALT_DOWN]C[ALT_UP]
+}
+DCC Send [S] {
+   gesture = S
+   Alt+S = keys, hotkey [ALT_DOWN]S[ALT_UP]
+}
+Finger [F] {
+   gesture = F
+   Alt+G = keys, hotkey [ALT_DOWN]G[ALT_UP]
+}
+Options [O] {
+   gesture = O
+   Alt+O = keys, hotkey [ALT_DOWN]O[ALT_UP]
+}
+Popups [P] {
+   gesture = P
+   Alt+P = keys, hotkey [ALT_DOWN]P[ALT_UP]
+}
+Remotes [R] {
+   gesture = R
+   Alt+R = keys, hotkey [ALT_DOWN]R[ALT_UP]
+}
+</APP>
+
+<APP name="Mozilla Firefox">
+class=MozillaWindowClass
+class=MozillaUIWindowClass
+Back [Left] {
+   gesture = Left
+   Alt+Left = keys, hotkey [ALT_DOWN][LEFT][ALT_UP]
+}
+Close Tab [\ Up] {
+   gesture = \ Up
+   Ctrl+W = keys, hotkey [CTRL_DOWN]W[CTRL_UP]
+}
+Foward [Right] {
+   gesture = Right
+   Alt+Right = keys, hotkey [ALT_DOWN][RIGHT][ALT_UP]
+}
+New Tab [\ Down] {
+   gesture = \ Down
+   Ctrl+T = keys, hotkey [CTRL_DOWN]T[CTRL_UP]
+}
+</APP>
+
+<APP name="Opera">
+class=Opera Main Window
+class=OpWindow
+exclude=true
+</APP>
+
+<APP name="Outlook Express">
+exec=msimn.exe
+Check Mail [M] {
+   gesture = M
+   Ctrl+M = keys, hotkey [CTRL_DOWN]M[CTRL_UP]
+}
+Check Spelling [X] {
+   F7 = keys, hotkey [F7]
+}
+Next Unread Message [Right] {
+   gesture = Right
+   Ctrl+U = keys, hotkey [CTRL_DOWN]U[CTRL_UP]
+}
+Previous Message [Left] {
+   gesture = Left
+   Ctrl+c = keys, hotkey [CTRL_DOWN]C[CTRL_UP]
+}
+Show Address Book [B] {
+   gesture = B
+   Ctrl+Shift+B = keys, hotkey [CTRL_DOWN][SHIFT_DOWN]B[SHIFT_UP][CTRL_UP]
+}
+</APP>
+
+<APP name="Photoshop">
+class=Photoshop
+Airbrush Tool [J] {
+   gesture = J
+   j = keys, hotkey J
+}
+Crop Tool [Down-Left] {
+   gesture = Down-Left
+   c = keys, hotkey C
+}
+Eraser Tool [E] {
+   gesture = E
+   e = keys, hotkey e
+}
+Eye Dropper Tool [D] {
+   gesture = D
+   i = keys, hotkey I
+}
+Gradient/Bucket Tool [G] {
+   gesture = G
+   g = keys, hotkey G
+}
+Lasso Tool [L] {
+   gesture = L
+   l = keys, hotkey L
+}
+Magic Wand Tool [W] {
+   gesture = W
+   w = keys, hotkey W
+}
+Marquee Tool [M] {
+   gesture = M
+   m = keys, hotkey M
+}
+Pencil Tool [B] {
+   gesture = B
+   b = keys, hotkey B
+}
+Rubber Stamp Tool [R] {
+   gesture = R
+   r = keys, hotkey R
+}
+Text Tool [T] {
+   gesture = T
+   t = keys, hotkey T
+}
+Zoom Tool [Z] {
+   gesture = Z
+   z = keys, hotkey Z
+}
+²ÃÇĞ¹¤¾ß [¡ı¡û] {
+   c = keys, hotkey C
+}
+¸´Î»µ÷°åÎ»ÖÃ[P] {
+   gesture = P
+   ALT+W+K+R = keys, keys [ALT_DOWN]W[ALT_UP]KR
+}
+¹Ø±Õ´°¿Ú[¡ı¡ú] {
+   gesture = Down-Right
+   CTRL + W = keys, hotkey [CTRL_DOWN]W[CTRL_UP]
+}
+½¥±ä/ÓÍÆáÍ°¹¤¾ß [G] {
+   g = keys, hotkey G
+}
+Áí´æÎª[A] {
+   gesture = A
+   CTRL + SHIFT + S = keys, hotkey [CTRL_DOWN][SHIFT_DOWN]S[SHIFT_UP][CTRL_UP]
+}
+Ä£ºı¹¤¾ß [R] {
+   r = keys, hotkey R
+}
+Ä§°ô¹¤¾ß [W] {
+   w = keys, hotkey W
+}
+Ç¦±Ê¹¤¾ß [B] {
+   b = keys, hotkey B
+}
+Ëõ·Å¹¤¾ß [Z] {
+   z = keys, hotkey Z
+}
+Ì×Ë÷¹¤¾ß [L] {
+   l = keys, hotkey L
+}
+ÍË³ö[¡û¡ü] {
+   gesture = Left-Up
+   CTRL + Q = keys, hotkey [CTRL_DOWN]Q[CTRL_UP]
+}
+ÎÄ×Ö¹¤¾ß [T] {
+   t = keys, hotkey T
+}
+Îü¹Ü¹¤¾ß [D] {
+   i = keys, hotkey I
+}
+ÏğÆ¤²Á¹¤¾ß [E] {
+   e = keys, hotkey e
+}
+ĞŞ¸´»­±Ê¹¤¾ß [J] {
+   j = keys, hotkey J
+}
+Ñ¡¿ò¹¤¾ß [M] {
+   m = keys, hotkey M
+}
+</APP>
+
+<APP name="Safari">
+exec=safari.exe
+Back [Left] {
+   gesture = Left
+   Alt+Left = keys, hotkey [ALT_DOWN][LEFT][ALT_UP]
+}
+Close Tab [\ Up] {
+   gesture = \ Up
+   Ctrl+W = keys, hotkey [CTRL_DOWN]W[CTRL_UP]
+}
+Forward [Right] {
+   gesture = Right
+   Alt+Right = keys, hotkey [ALT_DOWN][RIGHT][ALT_UP]
+}
+New Tab [\ Down] {
+   gesture = \ Down
+   Ctrl+T = keys, hotkey [CTRL_DOWN]T[CTRL_UP]
+}
+</APP>
+
+<APP name="Winamp">
+class=Winamp PE
+class=Winamp v1.x
+Disable Max/Restore [/ Up] {
+   gesture = / Up
+}
+Jump To Song [J] {
+   gesture = J
+   40194 = msg, send "WM_COMMAND" "41094" ""
+}
+Minimize Winamp {
+   gesture = / Down
+   Activate Main Window = win, activate "Winamp v1.x" "" ""
+   Minimize = win, min
+}
+Next Track [Right] {
+   gesture = Right
+   40048 = msg, send "WM_COMMAND" "40048" ""
+}
+Play [P] {
+   gesture = P
+   40045 = msg, send "WM_COMMAND" "40045" ""
+}
+Previous Track [Left] {
+   gesture = Left
+   40044 = msg, send "WM_COMMAND" "40044" ""
+}
+Stop [S] {
+   gesture = S
+   40047 = msg, send "WM_COMMAND" "40047" ""
+}
+</APP>
+
+<APP name="Windows Desktop">
+class=Progman
+Disabled [C, Q] {
+   gesture = Q
+   gesture = C
+}
+Find [F] {
+   gesture = F
+   Win+F = keys, keys [WIN_DOWN]F[WIN_UP]
+}
+Minimize All [/ Down] {
+   gesture = / Down
+   Win+M = keys, keys [WIN_DOWN]M[WIN_UP]
+}
+Restore All [/ Up] {
+   gesture = / Up
+   Win+Shift+M = keys, keys [WIN_DOWN][SHIFT_DOWN]M[SHIFT_UP][WIN_UP]
+}
+</APP>
+
+<APP name="WindowsÍ¼Æ¬ºÍ´«Õæ²é¿´Æ÷">
+class=ShImgVw:CPreviewWnd
+class=Photo_Lightweight_Viewer
+ÉÏÒ»ÕÅ[¡û] {
+   gesture = Left
+   LEFT = keys, hotkey "[LEFT]"
+}
+Êµ¼Ê´óĞ¡[A] {
+   gesture = A
+   CTRL + a = keys, hotkey "[CTRL_DOWN]a[CTRL_UP]"
+}
+ÏÂÒ»ÕÅ[¡ú] {
+   gesture = Right
+   RIGHT = keys, hotkey "[RIGHT]"
+}
+Ğı×ª:ÄæÊ±Õë[¡ü¡û] {
+   gesture = Up-Left
+   CTRL + l = keys, hotkey "[CTRL_DOWN]l[CTRL_UP]"
+}
+Ğı×ª:Ë³Ê±Õë[¡ü¡ú] {
+   gesture = Up-Right
+   CTRL + k = keys, hotkey "[CTRL_DOWN]k[CTRL_UP]"
+}
+×îºÏÊÊ[·´ÏòA] {
+   gesture = A Reversed
+   CTRL+b = keys, hotkey "[CTRL_DOWN]b[CTRL_UP]"
+}
+</APP>
+
+<GESTURE>
+Right {
+E`
+}
+
+Right-Up {
+xc
+}
+
+Right-Down {
+i
+}
+
+Right-Left {
+Ee@
+}
+
+Right-Left-Right {
+EeE`
+}
+
+Left {
+e@
+}
+
+Left-Up {
+˜A
+}
+
+Left-Down {
+2G
+}
+
+Left-Right {
+eE`
+}
+
+Left-Right-Left {
+eEe@
+}
+
+Up {
+… 
+}
+
+Up-Right {
+t#
+}
+
+Up-Left {
+–!
+}
+
+Up-Down {
+…%€
+}
+
+Up-Down-Up {
+…%… 
+}
+
+Down {
+%€
+}
+
+Down-Left {
+6‡
+}
+
+Down-Right {
+‰
+}
+
+Down-Up {
+%… 
+}
+
+Down-Up-Down {
+%…%€
+}
+
+/ Up {
+u0
+}
+
+/ Up - / Down {
+u5p
+}
+
+/ Down {
+5p
+}
+
+/ Down - / Up {
+5u0
+}
+
+\ Down {
+
+}
+
+\ Down - \ Up {
+•
+}
+
+\ Up {
+•
+}
+
+\ Up - \ Down {
+•
+}
+
+1 {
+alias=Down
+}
+
+2 {
+alias=Z
+}
+
+3 {
+special=||E
+e˜
+}
+
+3 Reversed {
+special=-||E
+}
+
+4 {
+eBi
+ei
+}
+
+5 {
+alias=S
+}
+
+6 {
+alias=G
+}
+
+7 {
+alias=Y
+}
+
+8 {
+2H˜B0
+$‰„ 
+2HB0
+$‰‡S
+2E˜B0
+$Y„ 
+2E˜E0
+$Y„#
+2H˜B
+$‰„#
+!Y„#
+2˜B0
+!Y„S
+&„S
+!Y„ 
+5˜B0
+2HE0
+2H˜E0
+2H˜E0
+2u0
+$Y„S 
+2E˜E2
+$„S 
+2H˜E2
+2E˜E2
+2˜E2
+!Y„#!
+$Y‡S!
+$Y„#!
+$Y„S!
+!Y„S 
+!Y„S!
+$‰‡S!
+!Y‡S!
+!WS!
+˜u2
+˜E2
+$„S!
+$‡S!
+$‰„S!
+˜E2
+˜B
+˜B
+$‰‡S 
+˜B2
+2E˜u2
+!Y„# 
+!Y‡Q
+$Y‡S 
+u2
+!&‡S 
+!Y‡S 
+2˜E0
+$Y„!
+!Y‡R
+†!
+2˜u2
+%˜E2
+%˜E2
+&‡S 
+5˜E2
+$‰„S 
+u2
+‡S!
+‰‡S!
+5˜u2
+&‡† 
+2˜E2
+2hB2
+5˜B2
+%u2
+%˜B2
+&„S 
+6„# 
+$u2
+„S 
+5˜E0
+!WS 
+!&„ 
+}
+
+9 {
+$Si
+2Bi
+!&
+2GSi
+2E6
+$&
+2i
+26
+$†6
+$u6
+}
+
+0 {
+alias=O
+}
+
+A {
+t&
+u6
+t%
+t&
+}
+
+B {
+B2‡
+B2˜p
+B2E˜p
+B5Hp
+B5˜p
+BRhp
+Be˜p
+Bhp
+Q#Y€
+q#$‡
+t!&T
+t!&‡
+t!Y€
+t!Y‡
+t#!&T
+t#!V‡
+t#!W
+t#!Y€
+t#!Y‡
+t#$V‡
+t#$Y€
+t#$Y‡
+t#$‡
+t#&W
+t#&‡
+t#TV‡
+t#TY€
+t#TY‡
+t#T‡
+t#V€
+t#V‡
+t#W
+t#Y€
+t#Y‡
+t$V‡
+t$Y€
+t$Y‡
+t$€
+t$‰‡
+t%˜
+t%˜p
+t&)‡
+t&TY€
+t&TY‡
+t&T‡
+t&Y€
+t&Y‡
+u5˜p
+„#!V€
+„#!V‡
+„#!Y€
+„#!Y‡
+„#$Y
+„#$Y€
+„#$Y‡
+„#$€
+„#&‡
+„#TY€
+„#Y€
+„#Y‡
+„$Y€
+„$Y‡
+„&TY€
+„&TY‡
+„&Y€
+t&%˜p
+t&&‡
+t#Q&‡
+t#T‰‡
+t&T‰‡
+„&T‰‡
+t&W‡
+t&$‰‡
+t#$‰€
+}
+
+C {
+2H
+$‰
+2H
+5x
+}
+
+D {
+t&‡
+t&€
+t&W
+„&‡
+}
+
+E {
+2Eex
+25x
+2ex
+25x
+2ex
+2Ex
+!W‰
+$W‰
+2x
+!$‰
+5ex
+25x
+2x
+2H
+2Eex
+2ex
+5ex
+2Ehx
+$VW‰
+22H
+22H
+2E5x
+5ux
+bEx
+bex
+bx
+2GW†
+bHH
+bEx
+bEex
+2HW†
+bH•x
+bH
+5Ex
+2hx
+bH
+bx
+5Eex
+2Hx
+25x
+bex
+2GW‰
+$‰‡
+bbH
+55x
+}
+
+F {
+alias=Left-Down
+}
+
+G {
+2He
+$†P
+2H˜
+$‰€
+2H•
+2H˜p
+2He@
+$†T
+$†W
+2Hep
+2H•@
+2H•p
+}
+
+H {
+u
+†
+$u
+t&
+u6
+t
+}
+
+I {
+alias=Down
+}
+
+J {
+GS
+Hc
+}
+
+K {
+6„
+5t
+5t%
+5„%
+5u
+5t€
+5
+5E
+5H
+5i
+5t%€
+6„Y
+6„‰
+5t‰
+6„%
+5t&
+5u€
+$t
+6t
+2AY
+%t
+5t‰
+}
+
+L {
+alias=Down-Right
+}
+
+M {
+special=-1E
+}
+
+N {
+t†0
+t–0
+t%–0
+t†0
+t
+AHc
+t…0
+t†0
+BYc
+t–
+u–0
+}
+
+O {
+$†0
+$† 
+2Hb
+$†!
+}
+
+P {
+t#T
+t&T
+„&T
+t#!
+„&!
+t#Q
+„#P
+t&!
+t&P
+„#Q
+t&Q
+„&P
+t# 
+t#P
+t#$
+}
+
+Q {
+x–2€
+†!P
+†!X
+†!€
+†$‰
+†%
+$S$€
+$†!P
+$†!X
+$†!Y
+$†!€
+$†!‰
+$†!
+$†$
+$†$p
+$†$€
+$†$‰
+$†$
+$†%
+$†%€
+$†%
+$†&
+$†)
+2Hb
+2Hb
+2Hb€
+2Hb
+2Hb
+2Hb
+2HbH
+2HbH
+2HbP
+2HbX
+2HbY
+2Hb`
+2Hb‰
+2Hb
+†%
+2Hb@
+†$€
+†!Y
+$†&
+2E2i
+$v!Y
+$†$Y
+2GS!Y
+bHbH
+bHbY
+2Hbi
+}
+
+R {
+t#T‰
+t#TY
+t$‰
+t&T‰
+t&Y
+t#T€
+BeH
+t#Y
+„&T‰
+t$Y
+t&W€
+t#!Y
+t#$‰
+„&TY
+t&(
+„&T€
+t#$Y
+„#Y
+t#$€
+t&T€
+„&€
+„&Y
+t&‰
+„#T‰
+„$‰
+BeE
+„#TY
+t&$€
+B5
+„&‰
+t#$P
+t&QH
+t&W‰
+„#W‰
+Bex
+„&W‰
+t#W‰
+t&$‰
+t&QY
+t&•H
+tx
+t&TY
+„#$‰
+}
+
+S {
+special=|3N
+!Y‡
+2Hp
+2Ehp
+}
+
+T {
+alias=Right-Down
+}
+
+U {
+†0
+†
+…0
+–0
+u0
+}
+
+V {
+alias=U
+}
+
+W {
+special=1E
+}
+
+X {
+special=-1K
+}
+
+Y {
+6€
+&
+hp
+&€
+5p
+6
+5p
+6
+6‡
+5€
+#W
+%6‡
+}
+
+Z {
+special=3N
+}
+
+? {
+5€
+B5p
+Bh
+Bep
+B5€
+Q&€
+Q&W
+Q#W
+Q&‡
+Q&
+Bi
+Q#X
+h
+ex
+ep
+!&W
+2h
+!&€
+}
+
+A Reversed {
+special=||A
+}
+
+C Reversed {
+special=-C
+}
+
+D Reversed {
+special=!D
+}
+
+E Reversed {
+special=-E
+}
+
+F Reversed {
+alias=Up-Right
+}
+
+G Reversed {
+special=!G
+}
+
+H Reversed {
+special=!H
+}
+
+I Reversed {
+alias=Up
+}
+
+J Reversed {
+special=!J
+}
+
+K Reversed {
+special=-K
+}
+
+L Reversed {
+alias=Left-Up
+}
+
+M Reversed {
+special=3E
+–%
+}
+
+N Reversed {
+special=-||N
+}
+
+O Reversed {
+special=||O
+}
+
+P Reversed {
+special=!P
+}
+
+S Reversed {
+special=|1N
+†!
+}
+
+T Reversed {
+alias=Up-Left
+}
+
+U Reversed {
+special=||U
+}
+
+V Reversed {
+alias=U Reversed
+}
+
+W Reversed {
+special=-3E
+}
+
+X Reversed {
+special=3K
+}
+
+Y Reversed {
+special=!Y
+}
+
+Z Reversed {
+special=1N
+}
+
+WHEEL_UP {
+}
+
+WHEEL_DOWN {
+}
+
+LBUTTON_DOWN {
+}
+
+LBUTTON_UP {
+}
+
+MBUTTON_DOWN {
+}
+
+MBUTTON_UP {
+}
+
+RBUTTON_DOWN {
+}
+
+RBUTTON_UP {
+}
+
+</GESTURE>
